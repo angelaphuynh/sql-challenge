@@ -89,3 +89,11 @@ from "Employees"
 GROUP BY
 last_name
 ORDER BY shared_name_count DESC;
+
+-- Epilogue "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
+SELECT
+emp_no,
+last_name,
+first_name
+FROM "Employees"
+WHERE(emp_no) = '499942'; 
